@@ -1,0 +1,47 @@
+/* WAVING HAND */
+@keyframes wave-animation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    17% {
+        transform: rotate(14deg);
+    }
+
+    33% {
+        transform: rotate(-8deg);
+    }
+
+    50% {
+        transform: rotate(14deg);
+    }
+
+    67% {
+        transform: rotate(-4deg);
+    }
+
+    83% {
+        transform: rotate(10deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+
+}
+
+.wave {
+    animation-name: wave-animation;
+    /* Refers to the name of your @keyframes element below */
+    animation-duration: 2.5s;
+    /* Change to speed up or slow down */
+    animation-iteration-count: 1;
+    /* Never stop waving :) */
+    transform-origin: 70% 70%;
+    /* Pivot around the bottom-left palm */
+    display: inline-block;
+}
+
+.wave:hover {
+    animation-iteration-count: infinite;
+}

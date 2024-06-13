@@ -1,3 +1,15 @@
+/* Gotham font */
+@import url("https://cdn.rawgit.com/mfd/f3d96ec7f0e8f034cc22ea73b3797b59/raw/856f1dbb8d807aabceb80b6d4f94b464df461b3e/gotham.css");
+/* Devicons */
+@import url("https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css")
+
+/* Tailwind CSS */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+/* Responsive typography */
+html {
+    font-size: 2vmin;
+}
